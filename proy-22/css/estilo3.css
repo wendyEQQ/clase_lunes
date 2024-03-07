@@ -2,9 +2,23 @@
     background-color: darkgreen;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap; /*mantiene la cantidad de cajas por horizontal*/
 }
 
 .caja{
+   /* color: blue;*/
     background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    margin: 5px;   
+}
+.contenedor{
+    background-color: burlywood;
+    display: flex;
+}
+
+.caja2{
+    
+    background-color: crimson;
     margin: 5px;
 }
