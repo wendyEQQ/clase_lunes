@@ -1,8 +1,8 @@
 #principal{
     width: 500px;
     height: 2000px;
-    background-color: aquamarine;
-    
+    background-color: aquamarine;        
+    margin: auto;
 }
 
 #c1{

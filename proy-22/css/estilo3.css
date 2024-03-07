@@ -1,0 +1,10 @@
+.principal{
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+}
+
+.caja{
+    background-color: aquamarine;
+    margin: 5px;
+}
