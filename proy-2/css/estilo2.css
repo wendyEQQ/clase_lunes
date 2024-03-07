@@ -1,0 +1,46 @@
+#principal{
+    width: 500px;
+    height: 2000px;
+    background-color: aquamarine;
+    
+}
+
+#c1{
+    width: 200px;
+    height: 200px;
+    background-color: red;  
+    position: absolute;   
+    left: 50px; 
+}
+#c2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;  
+    position: relative;
+    left: 50px;
+}
+#c3{
+    width: 200px;
+    height: 200px;
+    background-color: green;  
+    position: fixed;   /*la figura es fija*/
+    top: 300px;
+}
+
+#c4{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;  
+    position: sticky;       
+    top: 20px;
+}
+
+#c2-1{
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;  
+    position: relative;       
+    left: 50px;
+    top: 50px;
+    transform: rotate(45deg);/*gira cierta cantidad de grados*/
+}
